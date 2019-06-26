@@ -73,11 +73,10 @@ dependencies:
   - pyqt  # pandas.read_clipbobard
   - pytables>=3.4.2  # pandas.read_hdf, DataFrame.to_hdf
   - python-snappy  # required by pyarrow
+  - pyreadstat  # pandas.read_spss
   - s3fs  # pandas.read_csv... when using 's3://...' path
   - sqlalchemy  # pandas.read_sql, DataFrame.to_sql
   - xarray  # DataFrame.to_xarray
   - xlrd  # pandas.read_excel, DataFrame.to_excel, pandas.ExcelWriter, pandas.ExcelFile
   - xlsxwriter  # pandas.read_excel, DataFrame.to_excel, pandas.ExcelWriter, pandas.ExcelFile
   - xlwt  # pandas.read_excel, DataFrame.to_excel, pandas.ExcelWriter, pandas.ExcelFile
-  - pip:
-    - pyreadstat  # pandas.read_spss
